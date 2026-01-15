@@ -1,4 +1,4 @@
-{% set version = "0.1.4" %}
+{% set version = "0.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/faviconPlease_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/faviconPlease/faviconPlease_{{ version }}.tar.gz
-  sha256: c1967fba5d9500da826088406bb82bd1cce6605b02b93738a5070f7524c21f2d
+  sha256: 7d108d5978910abd27ed05a5ea8a5198112d85134fa5dfae4b2c15af4860138f
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
